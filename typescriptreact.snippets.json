@@ -1,0 +1,10 @@
+{
+	 "Functional component with prop-types.": {
+	 	"prefix": "cufc",
+	 	"body": [
+	 		"import { FC, ReactElement } from 'react'\nimport PropTypes from 'prop-types'\nimport { $1Styles } from './styles'\n\ntype $1Props = {} \n\nconst $1: FC<$1Props> = ():ReactElement => {\n\treturn (\n\t\t<$1Styles>\n\n\t\t</$1Styles>\n\t) \n}\n\n$1.propTypes = {}\n\nexport default $1",
+	 		"$2"
+	 	],
+	 	"description": "Generate a React functional component."
+	 }
+}
